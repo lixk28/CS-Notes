@@ -2,7 +2,7 @@
 
 My notes and references on some courses I choose in SYSU.  
 I always take paper notes on math courses such as mathmatical analysis and discrete math, which will not be uploaded into this repository.
-I usually take electronic notes on most courses and lectures closely related to Computer Science, which I think it's hard to take paper notes. And these notes will be uploaded.
+I usually take electronic notes on most courses and lectures closely related to Computer Science, which I think it's hard to take paper notes. And these notes will be uploaded.  
 The repository is temporarily empty, and I plan to upload some files into it when have some free time.
 
 ## SYSU_Courses and Notes
