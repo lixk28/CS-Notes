@@ -1,9 +1,7 @@
 # SYSU_Course-Note
 
 My notes on lecture and references on the courses I choose in SYSU.
-
 I always take paper notes on math courses such as mathmatical analysis and discrete math, which will not be uploaded into this repository.
-
 The repository is temporarily empty, and I plan to upload some files into it when have some free time.
 
 ## SYSU_Courses and Notes
