@@ -1,3 +1,17 @@
 # SYSU_Course-Note
-My notes on lecture and references on the courses I choose.   
+
+My notes on lecture and references on the courses I choose in SYSU.
+
+I always take paper notes on math courses such as mathmatical analysis and discrete math, which will not be uploaded into this repository.
+
 The repository is temporarily empty, and I plan to upload some files into it when have some free time.
+
+## SYSU_Courses and Notes
+
+| Course             | Teacher | Semester  | Upload                        |
+| ------------------ | ------- | --------- | ----------------------------- |
+| 程序设计I          | 刘红梅  | 2019 Fall | :negative_squared_cross_mark: |
+| 程序设计II         | 杨永红  | 2019 Fall | :negative_squared_cross_mark: |
+| 数据结构与算法分析 | 乔海燕  | 2020 Fall | :negative_squared_cross_mark: |
+| 计算机组成原理     | 郭雪梅  | 2020 Fall | :negative_squared_cross_mark: |
+
