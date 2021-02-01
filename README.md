@@ -1,4 +1,4 @@
-# CS-Notes
+# MyNotes
 
 My notes and references on some courses I choose in SYSU.  
 I always take paper notes on math courses such as mathmatical analysis and discrete math, which will not be uploaded into this repository.  
