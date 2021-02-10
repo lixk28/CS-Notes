@@ -30,4 +30,6 @@ nothing to commit, working directory clean
 git push -f
 ```
 
+注意到，这种方法在团队协作中是十分危险的行为，但如果你的仓库只是你自己个人使用，那么就无关紧要了。
+
 ---
