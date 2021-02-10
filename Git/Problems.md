@@ -12,7 +12,7 @@ master是本地分支，origin/master是服务端分支，当进行一次提交�
 ```
 ---master---origin/master
     \
-    your new version
+    your new version master
 ```
 
 如果使用`git commit --amend`修改一个不存在的提交（即提交已经被push），再push的话，会产生下面的错误报告：
@@ -27,8 +27,7 @@ nothing to commit, working directory clean
 
 解决的办法是：
 ```
-git rebase origin/master
-git push
+git push -f
 ```
 
 ---
