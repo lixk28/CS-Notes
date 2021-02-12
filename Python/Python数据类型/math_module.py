@@ -1,0 +1,32 @@
+import math
+
+# math function from python
+print(abs(-10))
+print(max(1,3,2,6,8))
+print(min(2,4,7,5,-3))
+print(pow(4,2.5))
+print(pow(16,2,250))
+print(round(pow(3,2.5),2))
+
+# math function from math module
+print(math.fabs(-2.2))
+print(math.ceil(2.7))
+print(math.floor(-3.2))
+print(math.factorial(6))
+print(math.comb(5,2))
+print(math.gcd(144,64))
+print(math.sqrt(17))
+print(math.pow(7,3))
+print(math.exp(2))
+print(math.log(math.e))
+print(math.log(25,5))
+print(math.log2(8))
+print(math.log10(100))
+print(math.sin(math.pi / 2))
+print(math.cos(math.pi / 2))
+print(math.tan(math.pi / 4))
+print(math.asin(1))
+print(math.acos(0))
+print(math.atan(1))
+print(math.degrees(math.pi / 2))
+print(math.radians(45))
