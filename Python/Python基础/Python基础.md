@@ -117,6 +117,7 @@ pip3 install <modulename> #你需要安装的模块
 - numpy
 - matplotlib
 - pandas
+- scipy
 - sklearn
 - scrapy
 
