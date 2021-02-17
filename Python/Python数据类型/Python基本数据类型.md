@@ -7,11 +7,13 @@ Table of Contents:
 
 Python3提供六个标准的数据类型：
 - **Number(数字)**
-- **String(字符串)**
-- **List(列表)**
-- **Tuple(元组)**
+- **Sequence(序列)**
+  - **String(字符串)**
+  - **List(列表)**
+  - **Tuple(元组)**
+- **Map(映射)**
+  - **Dictionary(字典)**
 - **Set(集合)**
-- **Dictionary(字典)**
 
 **不可变数据类型**：当该数据类型的变量的值发生了改变，那么它对应的内存地址也会改变。(值变地址变)
 
