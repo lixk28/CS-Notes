@@ -22,6 +22,8 @@ Table of Contents：
    4. [lower 和 upper](#lower-和-upper)
    5. [join 和 split](#join-和-split)
    6. [replace](#replace)
+   7. [translate](#translate)
+   8. [strip](#strip)
 
 ---
 
@@ -297,20 +299,20 @@ s.center(<width>,"<fill>")
 
 ## len
 
-len的功能：返回字符串长度
+`len`的功能：返回字符串长度
 
-len的语法格式：
+`len`的语法格式：
 ```python
 len(string)
 ```
 
 ## find
 
-find的功能：在字符串中查找子串。如果找到，返回子串首字符的索引，否则返回-1。
+`find`的功能：在字符串中查找子串。如果找到，返回子串首字符的索引，否则返回-1。
 
 当然，我们用成员资格运算也是相同的。
 
-find的语法格式：
+`find`的语法格式：
 ```python
 s.find("<substring>", <begin>, <end>)
 #指定子串，查找的起始索引和终止索引，起点和终点都是可选的
@@ -320,16 +322,93 @@ s.find("<substring>", <begin>, <end>)
 
 ## lower 和 upper
 
+`lower`和`upper`的功能分别是：将字符串全部转换成小写或大写。
 
+`lower`和`upper`的语法格式：
+```python
+s.lower()
+s.upper()
+```
+
+<img src=image/2021-02-17_18-32.png>
 
 ## join 和 split
 
-join的功能：
+`join`的功能：以指定字符串为分隔符，将序列中的所有元素（字符串表示）连接合成为一个新的字符串。
 
+`join`的语法格式：
+```python
+string.join(sequence)
+#string是一个字符串
+#sequence是一个序列
+```
 
+<img src=image/2021-02-17_18-48.png>
 
+---
+
+`split`的功能：以指定字符串为分隔符，将字符串按分隔符进行切割，并将切割后的字符串作为一个列表返回。
+
+`split`的语法格式：
+```python
+string.split(split string, counter)
+#split string是分隔符
+#counter是分割的次数，表示进行多少次的分割
+```
+
+<img src=image/2021-02-17_18-50.png>
 
 ## replace
+
+`replace`的功能：将指定子串都替换为另一个子串，并返回替换后的字符串。
+
+`replace`的语法格式：
+```python
+s.replace(initial string, replace string)
+#initial string是指定子串
+#replace string是替换子串
+```
+
+<img src=image/2021-02-17_19-03.png>
+
+## translate
+
+`translate`的功能：根据转换表，将字符串中指定的子串替换为**长度相同**的另一个子串。
+
+在使用`translate`之前必须创建一个**转换表**，这个转换表指出了不同Unicode码之间的转换关系。转换表由字符串类型`str`的方法maketrans实现：
+
+`maketrans`的语法格式：
+```python
+translate_table = str.maketrans(initial string, translate string， delete string)
+#initial string是指定子串
+#translate string是长度相同的替换子串
+#delete string是要删除的字符组成的子串
+```
+
+`maketrans`有3个参数，第一个是指定的字符串，第二个是用来替换的字符串，第三个参数可选，指定要将字符串中的哪些字符删除。
+
+`translate`的语法格式：
+```python
+s.translate(translate_table)
+#translate_table是替换表
+```
+
+<img src=image/2021-02-17_19-19.png>
+
+## strip
+
+`strip`的功能：根据指定要删除的字符组成的字符串，去除一个字符串开头和结尾（不包含中间）的指定字符，并返回删除后的结果。不指定时默认删除空格。
+
+`strip`的语法格式：
+```python
+s.strip(delete string)
+#delete string包含要删除的字符
+```
+
+<img src=image/2021-02-17_19-06.png>
+
+
+
 
 
 
