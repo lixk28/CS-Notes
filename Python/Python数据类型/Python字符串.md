@@ -15,7 +15,13 @@ Table of Contents：
       3. [格式说明](#格式说明)
       4. [宽度和精度](#宽度和精度)
       5. [对齐和填充](#对齐和填充)
-5. [字符串内置函数](#字符串内置函数)
+5. [字符串方法](#字符串方法)
+   1. [center](#center)
+   2. [len](#len)
+   3. [find](#find)
+   4. [lower 和 upper](#lower-和-upper)
+   5. [join 和 split](#join-和-split)
+   6. [replace](#replace)
 
 ---
 
@@ -260,7 +266,58 @@ Python字符串格式化符号，与C基本完全一致：
 <img src=image/2021-02-17_12-06.png>
 
 
-# 字符串内置函数
+# 字符串方法
+
+这里只介绍一些常用的字符串方法。
+
+## center
+
+center的功能：令字符串居中，在两边添加填充字符（默认为空格）
+
+center的语法格式：
+```python
+s.center(<width>,"<fill>")
+#指定宽度和填充字符
+```
+
+<img src=image/2021-02-17_12-32.png>
+
+## len
+
+len的功能：返回字符串长度
+
+len的语法格式：
+```python
+len(string)
+```
+
+## find
+
+find的功能：在字符串中查找子串。如果找到，返回子串首字符的索引，否则返回-1。
+
+当然，我们用成员资格运算也是相同的。
+
+find的语法格式：
+```python
+s.find("<substring>", <begin>, <end>)
+#指定子串，查找的起始索引和终止索引，起点和终点都是可选的
+```
+
+<img src=image/2021-02-17_12-39.png>
+
+## lower 和 upper
+
+
+
+## join 和 split
+
+join的功能：
+
+
+
+
+## replace
+
 
 
 
