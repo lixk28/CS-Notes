@@ -41,6 +41,7 @@ python标识符命名规则：
 ### 关键字
 
 关键字（或保留字），我们不能将它们用作任何标识符名称。Python的标准库提供了一个keyword模块，可以输出当前版本的所有关键字。
+
 <img src=image/2021-02-11_13-47.png>
 
 ## 注释
@@ -52,6 +53,7 @@ Python中单行注释以`#`开头：
 #this is a comment
 #this is another comment
 ```
+
 <img src=image/2021-02-11_13-51.png>
 
 ### 多行注释
