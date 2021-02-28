@@ -5,12 +5,16 @@
 2. [2. This is header 5](#2-this-is-header-5)
 
 # 1. This is header 1
+
 ## 1.1. This is header 2
+
 ### 1.1.1. This is header 3
+
 ### 1.1.2. This is header 4
 # 2. This is header 5
 
 ordered list:
+
 1. thing1
    1. thing2
    2. thing3
@@ -65,10 +69,10 @@ This is a table:
 
 This is [a link](https://github.com/lixk28), which is directed to my github profile page.
 
-
-These are emojis:
+These are emojis: 
 
 This is a mermaid diagram:
+
 ```mermaid
 stateDiagram
     [*] --> First
@@ -77,3 +81,4 @@ stateDiagram
         second --> [*]
     }
 ```
+
